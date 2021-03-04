@@ -1,0 +1,1 @@
+const print = document.querySelector('.show');
