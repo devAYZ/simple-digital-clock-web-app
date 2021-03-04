@@ -1,4 +1,5 @@
 const print = document.querySelector('.show');
-now = () => {
-    
+nowTime = () => {
+
 }
+setInterval(nowTime, 1000);
