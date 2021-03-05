@@ -7,6 +7,7 @@ nowTime = () => {
     let html = `
     
     `;
+    showTime.innerHTML = html;
 
 }
 setInterval(nowTime, 1000);
