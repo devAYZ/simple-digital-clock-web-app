@@ -5,7 +5,7 @@ nowTime = () => {
     const m = now.getMinutes();
     const s = now.getSeconds();
     let html = `
-    
+    <span>${h%12}</span> :
     `;
     showTime.innerHTML = html;
 
