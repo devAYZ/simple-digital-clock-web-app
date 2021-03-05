@@ -6,6 +6,7 @@ nowTime = () => {
     const s = now.getSeconds();
     let html = `
     <span>${h%12}</span> :
+    <span>${m}</span> :
     `;
     showTime.innerHTML = html;
 
