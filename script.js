@@ -10,6 +10,5 @@ nowTime = () => {
     <span>${s}</span>
     `;
     showTime.innerHTML = html;
-
 }
 setInterval(nowTime, 1000);
